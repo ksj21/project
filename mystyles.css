@@ -1,14 +1,14 @@
 /* MY STYLESHEET (mystyles.css") */
 
 a:link, a:visited {
-    color:darkslategray;
+    color:whitesmoke;
     background-color:transparent;
     font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
 }
 
 a:hover, a:active {
-    color:lightseagreen;
+    color:navajowhite;
     background-color:transparent;
     font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
@@ -16,7 +16,7 @@ a:hover, a:active {
 
 h1 {
     margin:20px;
-    color:black;
+    color:whitesmoke;
     font-family:Garamond,serif;
     font-weight:bold;
     font:40px;
@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     margin:20px;
-    color:darkslateblue;
+    color:linen;
     font-family:Garamond,serif;
     font-weight:bold;
     font:36px;
@@ -32,7 +32,7 @@ h2 {
 
 h3 {
     margin:20px;
-    color:darkslategray;
+    color:antiquewhite;
     font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
     font-variant-caps:all-small-caps;
@@ -43,7 +43,7 @@ h3 {
 
 h4 {
     margin:20px;
-    color:black;
+    color:antiquewhite;
     font-family:Helvetica,sans-serif,Arial;
     font:10px;
     font-weight:lighter;
@@ -53,24 +53,25 @@ h4 {
 p {
     margin:20px;
     line-height:10px;
-    color:black;
+    color:whitesmoke;
     font-family:Helvetica,sans-serif,Arial;
     font:10px;
 }
 
 .page {
-    background-color:linen;
-    color:black;
+    background-color:darkslategrey;
+    color:linen;
     font-family:Helvetica,sans-serif,Arial;
     line-height:150%;
-    border:4px solid black;
+    border:4px solid linen;
+    max-width:fit-content;
     margin:20px;
     padding:20px;
 }
 
 .navbar {
     background-color:transparent;
-    color:darkslategray;
+    color:navajowhite;
     font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
     border:1px transparent;
@@ -89,32 +90,58 @@ ol {
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    margin:5px;
+    border:1px solid #ccc;
+    float:left;
+    width:180px;
   }
   
 div.gallery:hover {
-    border: 2px solid #777;
+    border:5px solid #777;
   }
   
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width:100%;
+    height:auto;
   }
   
 div.gallerydesc {
-    padding: 15px;
-    text-align: center;
-    color:black;
+    padding:15px;
+    text-align:center;
+    background-color:transparent;
+    color:linen;
     font-family:Helvetica,sans-serif,Arial;
     font:10px;
   }
 
+.responsive {
+    padding:0 6px;
+    float:left;
+    width:24.99999%;
+  }
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width:49.99999%;
+      margin:6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width:100%;
+    }
+  }
+  
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+
 .footer {
     text-align:center;
-    color:black;
+    color:antiquewhite;
     font-size:10px;
     font-family:Helvetica,sans-serif,Arial;
 }
