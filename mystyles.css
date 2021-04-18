@@ -8,7 +8,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color:navajowhite;
+    color:rosybrown;
     background-color:transparent;
     font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
@@ -19,12 +19,12 @@ h1 {
     color:whitesmoke;
     font-family:Garamond,serif;
     font-weight:bold;
-    font:40px;
+    font:46px;
 }
 
 h2 {
     margin:20px;
-    color:linen;
+    color:rosybrown;
     font-family:Garamond,serif;
     font-weight:bold;
     font:36px;
@@ -43,7 +43,7 @@ h3 {
 
 h4 {
     margin:20px;
-    color:antiquewhite;
+    color:whitesmoke;
     font-family:Helvetica,sans-serif,Arial;
     font:10px;
     font-weight:lighter;
@@ -59,7 +59,7 @@ p {
 }
 
 .page {
-    background-color:darkslategrey;
+    background-color:rgb(54, 48, 48);
     color:linen;
     font-family:Helvetica,sans-serif,Arial;
     line-height:150%;
@@ -71,7 +71,7 @@ p {
 
 .navbar {
     background-color:transparent;
-    color:navajowhite;
+    color:rosybrown;
     font-family:Helvetica,sans-serif,Arial;
     font-weight:bold;
     border:1px transparent;
@@ -141,7 +141,7 @@ div.gallerydesc {
 
 .footer {
     text-align:center;
-    color:antiquewhite;
+    color:whitesmoke;
     font-size:10px;
     font-family:Helvetica,sans-serif,Arial;
 }
