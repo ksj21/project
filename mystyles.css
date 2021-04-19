@@ -3,14 +3,12 @@
 a:link, a:visited {
     color:slategray;
     background-color:transparent;
-    font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
 }
 
 a:hover, a:active {
     color:rosybrown;
     background-color:transparent;
-    font-family:Helvetica,sans-serif,Arial;
     text-decoration:none;
 }
 
@@ -79,11 +77,6 @@ p {
     padding:1px;
     display:inline;
     text-align:right;
-}
-
-img {
-    width: 100%;
-    object-fit:contain;
 }
 
 img:hover {
