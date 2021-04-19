@@ -1,7 +1,7 @@
 /* MY STYLESHEET (mystyles.css") */
 
 a:link, a:visited {
-    color:slategray;
+    color:antiquewhite;
     background-color:transparent;
     text-decoration:none;
 }
@@ -139,7 +139,7 @@ ol {
 /* Caption text */
 .gallerytext {
     color:#f2f2f2;
-    font-size:10px;
+    font-size:12px;
     font-family:Helvetica,Arial,sans-serif;
     padding:8px 12px;
     position:absolute;
